@@ -59,6 +59,9 @@ div,li {
   background: center / cover no-repeat url("../images/sample_key.jpg");
   font-family: 'Noto Serif JP', serif;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .key h1{
   font-size: 2.5rem;
@@ -84,8 +87,8 @@ div,li {
   width: 20%;
   border-radius: 50%;
 }
-.first_title {
-  padding-top: 15vh;
+.first_title { 
+  box-sizing: border-box;
 }
 .first_concept {
 width: "";
@@ -107,7 +110,6 @@ flex-direction: row;
   flex-direction: row;
   justify-content: space-between;
   padding: 45px;
-  clear: both;
 }
 .list_menu {
   width: 49%;
@@ -120,6 +122,7 @@ flex-direction: row;
   max-height: fit-content;
   float: left;
   padding-right: 5px;
+  clear: both;
 }
 .list_menu p {
   padding-left: 10vw;
@@ -130,7 +133,8 @@ flex-direction: row;
   margin: 20px;
 }
 .coffee {
-  padding: 20px;
+  width: 100%;
+  padding: 10px;
   padding-inline: 5px;
 }
 .coffee_menu_image {
@@ -140,21 +144,29 @@ flex-direction: row;
   clear: both;
   justify-content: space-between;
 }
-.coffee_text {
+.coffee_text_first {
+  margin: 10px;
+  width: 49%;
+}
+.coffee_text_second {
+  margin: 10px;
   width: 49%;
 }
 .coffee_menu_1 {
   display: flex;
 }
+.coffee_menu_text {
+  width: 80%;
+}
 .coffee_menu_2 {
   display: flex;
 }
 .dt_text_1{
-  width: 85px;
+  width: 80px;
   float: left;
 }
 .dt_text_2 {
-  width: 85px;
+  width: 80px;
   height: 25px;
   float: left;
   clear: both;
