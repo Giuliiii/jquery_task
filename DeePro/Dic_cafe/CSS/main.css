@@ -133,9 +133,9 @@ flex-direction: row;
   margin: 20px;
 }
 .coffee {
-  width: 100%;
   padding: 10px;
   padding-inline: 5px;
+  margin: 20px;
 }
 .coffee_menu_image {
   border-radius: 50%;
@@ -157,6 +157,7 @@ flex-direction: row;
 }
 .coffee_menu_text {
   width: 80%;
+  padding: 10px;
 }
 .coffee_menu_2 {
   display: flex;
