@@ -133,7 +133,6 @@ flex-direction: row;
 
 .ul_menu {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding: 45px;
 }
@@ -141,16 +140,17 @@ flex-direction: row;
 .list_menu {
   width: 49%;
   background-color: #fff;
-  padding: 1vh 1vw;
+  display: flex;
+  padding: 0px 10px 0px 0px;
   margin: auto;
 }
 
-.list_menu img {
+.Menu_img {
   width: 55%;
-  max-height: fit-content;
   float: left;
   padding-right: 5px;
   clear: both;
+  object-fit: cover;
 }
 
 .list_menu p {
