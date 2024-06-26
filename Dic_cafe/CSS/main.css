@@ -62,6 +62,14 @@ div,li {
   width: 100%;
 }
 
+.first_menu {
+  background-position: center; 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-image: url("../images/sample_menu_bg.jpg");
+  background-attachment: fixed;
+}
+
 .section_inner {
   padding: 50px 10% 30px;
 }
@@ -121,11 +129,6 @@ flex-direction: row;
 
 .first_concept img {
   width: 35%;
-}
-
-.first_menu {
-  background: center / cover no-repeat url("../images/sample_menu_bg.jpg");
-  background-attachment: fixed;
 }
 
 .ul_menu {
